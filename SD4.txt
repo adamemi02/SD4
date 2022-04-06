@@ -1,0 +1,7 @@
+Happy Number:
+Vom face suma patratelor cifrelor numarului,pana vom obtine 1 sau 4.
+Daca obtinem 1 numarul este happy,iar daca este 4 nu este happy.
+Complexitate:???
+Linked-list-cycle.Luam 2 pointeri in capul listei.Primul se va misca din 1 in 1,iar al 2 lea din 2 in 2.Daca acestia se intalnesc la un moment dat returnam true,iar daca nu returnam false.
+Complexitate O(n)
+Memorie O(1)

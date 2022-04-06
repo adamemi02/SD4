@@ -1,0 +1,17 @@
+class Solution {
+public:
+    bool isHappy(int nr) {
+        int rez=nr;
+    int sum=0;
+    while(rez!=1 &&rez!=4)
+    {sum=0;
+        while(rez!=0){
+        sum=sum+(rez%10)*(rez%10);
+        rez=rez/10;
+    }
+    rez=sum;
+    }
+    if(rez==1) return true;
+    else return false;
+    }
+};
